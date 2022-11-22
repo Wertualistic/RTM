@@ -1,0 +1,63 @@
+.sidebar .menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar{
+    width: 20%;
+    height: 100vh;
+    background: #fff;
+}
+
+.sidebar .brand img{
+    width: 100px;
+    margin: 50px 60px;
+}
+
+.sidebar .menu .link{
+    color: grey;
+    text-decoration: none;
+    border: 1px solid rgb(12, 139, 63);
+    width: 180px;
+    margin-top: 5px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    transition: .3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+}
+
+.sidebar .menu .link:hover{
+    color: #fff;
+    background-color: rgb(12, 139, 63);
+}
+
+.sidebar .menu .active{
+    color: #fff;
+    background-color: rgb(12, 139, 63);
+}
+
+.sidebar .menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar .menu i{
+    float: right;
+}
+
+.head{
+    display: flex;
+}
+
+.head .header{
+    border: 20px solid #fff;
+    margin-left: 10px;
+    width: 100%;
+}
